@@ -1,0 +1,23 @@
+body {
+  background-color: cyan;
+  margin: 2rem 10rem 0 10rem;
+}
+
+h1 {
+	color: magenta;
+	font-size: 72px;
+	font-family: Impact;
+}
+
+h2 {
+	color: yellow;
+}
+
+p {
+	color: magenta;
+}
+
+body {
+	font-family: Comic Sans MS;
+	text-align: center;
+}

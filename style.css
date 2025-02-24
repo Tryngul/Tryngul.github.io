@@ -1,23 +1,57 @@
 body {
-  background-color: cyan;
-  margin: 2rem 10rem 0 10rem;
+	color: magenta;
+	background-image: repeating-linear-gradient(45deg, white, cyan 90%);
+	margin: 0rem 8rem;
+  	font-family: Comic Sans MS, cursive;
+	text-align: center;
 }
 
 h1 {
-	color: magenta;
 	font-size: 72px;
 	font-family: Impact;
+	text-shadow: lime 1px 0 10px;
 }
 
 h2 {
 	color: yellow;
+	text-shadow: 1px 1px 2px purple;
+}
+
+h3 {
+	font-family: Lucida Handwriting;
+	text-shadow: lime 1px 0 10px;
+}
+
+
+hr {
+	border-top: 1px solid yellow;
 }
 
 p {
-	color: magenta;
+	margin: 0;
 }
 
-body {
-	font-family: Comic Sans MS;
-	text-align: center;
+.div-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.p-title {
+	color: yellow;
+	text-align: left;
+	font-size: x-large;
+	margin: 0;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		margin: 1rem;
+	}
+	
+	h1 {
+		font-size: xxx-large;
+	}
+	
 }
